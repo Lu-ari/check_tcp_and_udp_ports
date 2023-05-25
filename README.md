@@ -15,3 +15,6 @@ This is a simple Python script that allows you to check if a port is open on a s
 4. Choose between TCP and UDP protocols using the radio buttons.
 5. Click the "Check" button to check if the specified port is open on the specified destination IP address using the specified protocol.
 6. The result will be displayed in the window.
+
+
+![image](https://github.com/Lu-ari/check_tcp_and_udp_ports/assets/89011948/0fef18f7-4d92-4ab1-9d95-bc1162d1f9bc)
