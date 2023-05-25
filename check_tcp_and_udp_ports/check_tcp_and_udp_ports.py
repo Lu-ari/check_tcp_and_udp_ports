@@ -21,6 +21,13 @@ def display_result():
 root = Tk()
 root.title("Port Checker")
 
+source_label = Label(root, text="Source Computer:")
+source_label.pack()
+
+hostname = socket.gethostname()
+source_entry = Label(root, text=hostname)
+source_entry.pack()
+
 host_label = Label(root, text="Destination IP:")
 host_label.pack()
 
