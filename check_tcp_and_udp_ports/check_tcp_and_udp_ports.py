@@ -39,7 +39,7 @@ port_label.pack()
 
 port_entry = Entry(root)
 port_entry.pack()
-
+#eklendi
 var = StringVar(value="TCP")
 tcp_radio = Radiobutton(root, text="TCP", variable=var, value="TCP")
 tcp_radio.pack()
